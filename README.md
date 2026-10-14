@@ -37,13 +37,16 @@ Designed for small screens (e.g. 4.3" E-Ink) and physical directional buttons:
 * **2-Stage Fast Button Navigation**: Streamlines hardware chapter menus to only the 66 Books (~70 total items), enabling 3-second button scrolling from Genesis to Revelation.
 * **Compact Chapter Hubs**: Interactive chapter grids fit comfortably on a single screen without vertical overflow.
 * **Dedicated End-of-Book Notes**: Footnotes reside in separate notes pages at the end of each book, keeping scripture uninterrupted while providing instant bidirectional return links.
+* **Refined Poetic Typography**: Tightly formatted stanzas (`line-height: 1.25`, 0.04em margin) and clear 0.5em breaks preserve classical Hebrew poetic rhythm without exaggerated vertical gaps.
 * **Distraction-Free**: No on-page touch banners, button bars, or extraneous chrome.
 
 ### Larger-Touch Edition
-Designed for capacitive touchscreens (6.0"+ 300 PPI) and touch software like **KOReader**:
+Designed for capacitive touchscreens (6.0"+ 300 PPI), modern e-readers (Kindle, Kobo, Boox), and touch software like **KOReader**:
 * **Dual-Mode EPUB3 Pop-up Footnotes**:
-  * In KOReader, tapping a footnote marker (`[a]`) opens an instant pop-up dialog over the text without losing your place.
-  * Optionally enable KOReader's *"In-page EPUB footnotes"* style tweak to display notes at the bottom of the page like a printed study Bible.
+  * Tapping a footnote marker (`[a]`) opens an instant pop-up dialog over the text without losing your place.
+  * **Links Inside Footnotes (Kindle)**: Kindle's native popup preview card disables clicking on nested links by design. Tap Kindle's **"Go to footnote"** button inside the popup to jump to the note at the end of the chapter where cross-reference links (like Isaiah 40:3) are fully clickable, then tap Kindle's Back button (`<`) to return to your verse.
+  * **In-Page Footnotes (KOReader)**: Enable KOReader's *"In-page EPUB footnotes"* style tweak to display notes at the bottom of the active page like a printed study Bible, allowing 1-tap direct interaction with cross-reference links without popups.
+* **Refined Poetic Typography**: Natural strophic line spacing (`line-height: 1.25` with 0.04em intra-stanza margin and negative hanging indents) paired with 0.55em breaks between stanzas.
 * **Capacitive Touch Hitboxes**: Footnote markers, scripture links, and chapter tiles feature expanded hitboxes (~48px) to prevent mis-taps.
 * **3-Level Hierarchical TOC**: Expandable tree (`Testament → Book → Chapter`) in your device's native Table of Contents drawer.
 * **1-Tap Navigation**: Tap any chapter header to return to that book's Chapter Matrix, or use the bottom navigation buttons (`← Prev`, `Overview`, `Next →`).
